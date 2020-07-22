@@ -20,7 +20,7 @@ namespace Lab3DecisionMaking
                 {
                     Console.WriteLine(name + ", your number is "+input + " Even and less than 25");
                 }
-                else if (input > 25 && input < 61)
+                else if (input > 25 && input < 61 && input%2==0)
                 {
                     Console.WriteLine(name+ ", your number is "+"Even");
                 }
